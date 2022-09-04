@@ -1,0 +1,43 @@
+body::after{
+    content: "";
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/pizza-bg-img-1.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    opacity:0.7;
+}
+
+.transbox{
+    margin: 30px auto;
+    padding: 20px;
+    width: 50vw;
+    height: 80vh;
+    border: 5px solid white;
+    border-radius: 40px;
+    background-color: #fff;
+    opacity: 0.5;
+} 
+
+.transbox h1{
+    text-align: center;
+}
+
+.drinks{
+    margin-left: 30px;
+}
+
+#calculate{
+    margin: 20px;
+    padding: 10px 25px;
+    font-size: 22px;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 40px;
+    font: bolder;
+}

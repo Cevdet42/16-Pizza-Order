@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Order</title>
+</head>
+<body>
+
+    <div class="transbox" id="transbox">
+        <h1>Pizza Order List</h1>
+        <form>
+            <h2>Choose a variety:</h2>
+            <input type="radio" name="variety" id="Mixed" value="10" checked><label for="Mixed">Mixed pizza(10€)</label><br>
+            <input type="radio" name="variety" id="Vegeterian" value="8"><label for="Vegeterian">Vegeterian pizza(8€)</label><br>
+
+            <h2>Select portion:</h2>
+            <input type="radio" name="portion" id="oneportion" checked><label for="oneportion">One portion</label><br>
+            <input type="radio" name="portion" id="oneandahalfportion"><label for="oneandahalfportion">One and a half portion</label><br>
+
+            <br>
+            <input type="checkbox" name="spicy" id="spicy"><label for="spicy">extra spicy</label>
+
+            <br>
+            <br>
+            <input type="checkbox" name="drink" id="drink" value="2" checked><label for="drink">Drink(2€)</label><br>
+            <div class="drinks"><input type="radio" name="drink" id="cola"><label for="cola">Cola</label><br>
+            <input type="radio" name="drink" id="Ayran"><label for="Ayran">Ayran</label><br>
+            <input type="radio" name="drink" id="turnipjuice"><label for="turnipjuice">Turnip juice</label><br>
+            </div>
+            
+
+            <!-- <input type="submit" value="Calculate" id="calculate"> -->
+
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
